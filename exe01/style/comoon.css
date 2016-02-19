@@ -1,0 +1,113 @@
+
+.public-header{
+	position: relative;
+	width:100%;
+	background: #121212
+}
+.pubblic-header-nav{
+	position: relative;
+	margin: 0 auto;
+	width: 980px;
+	height: 40px;
+}
+.public-header-nav-index{
+	float: left;
+	padding-left:22px;
+	height: 40px;
+	line-height: 40px;
+	color: #cccccc;
+	background: url(../img/index-index-index.png) no-repeat left center;
+
+}
+.public-header-nav-login{
+	float:right;
+	padding-left: 28px;
+	height: 40px;
+	line-height: 40px;
+	background: url(../img/index-index-login.png) no-repeat left center;
+	color: #ccc;
+}
+.public-header-nav-login .line{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.public-nav{
+	position: relative;
+	height: 82px;
+	border-top:1px solid #363636;
+	background: #2b2b2b;
+}
+.public-nav-box{
+	position: relative;
+	width: 980px;
+	height: 82px;
+	margin:  0 auto;
+}
+.public-nav-logo{
+	position: relative;
+	float: left;
+	width: 212px;
+	height: 82px;
+	background: url(../img/index-nav-logo.png) no-repeat left center;;
+}
+.public-nav-search{
+	position: relative;
+	margin-top: 26px;
+	float: right;
+	width: 194px;
+	height: 32px;
+	background: #f6f6f6;
+	line-height: 26px;
+}
+.public-nav-search input{
+	height: 32px;
+	border:none;
+	background:none;
+	outline: none;
+	padding-left: 5px;
+	width: 140px;
+}
+.public-nav-search input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#666;
+    font-style:oblique;
+}
+
+.public-nav-bar{
+	position: relative;
+	float: left;
+}
+.public-nav-bar li{
+	float: left;
+	padding: 0px 19px;
+	font-size: 18px;
+	color: #d7d7d7;
+	border-right: 1px solid #333333;
+	border-left: 1px solid #333333;
+}
+
+.public-nav-bar li:first-child{
+	border-left: none;
+}
+.public-nav-bar li:last-child{
+	border-right: none;
+}
+.public-nav-bar .active,.public-nav-bar li:hover{
+	color: #0099ff;
+}
+.public-nav-bar ul{
+	height: 20px;
+	margin-top: 32px;
+	margin-left: 98px;
+	line-height: 20px;
+}
+.public-nav-search .btn{
+	position: absolute;
+	right: 0px;
+	  top: 0px;
+	width: 33px;
+   	height: 32px;
+   	background: url(../img/index-nav-search.png) no-repeat center;
+   	cursor: pointer;
+	border-left: 1px solid #dfdfdf;
+}

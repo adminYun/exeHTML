@@ -1,0 +1,28 @@
+
+body,h1,h2,h3,h4,h5,h6,hr,p,div,span,ul,li,img,input,select{
+	padding:0;
+	margin:0;
+}
+/*移动端微软雅黑*/
+body,html{
+	font-family: 'Microsoft Yahei'
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+table{
+	border-collapse: collapse;
+}
+ul,li,ul li{
+	list-style: none;
+}
+clearfix:after{
+	content: '';
+	display: block;
+}
+clearfix{
+	display: inline-table;
+}
